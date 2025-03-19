@@ -7,11 +7,11 @@
 |mysql|8.0.x|
 |redis|6.2.6|
 ### 核心依赖
-| 依赖          |  版本    |
+| 依赖           |  版本    |
 |:-------------|:-------:|
 | spring boot  |  2.7.0  |
 | hutool       |  5.8.3  |
-| lombol       | 1.18.30 |
+| lombok       | 1.18.30 |
 | Mybatis Plus |  3.5.2  |
 | dynamic      |  3.5.2  |
 | wechatpay    | 0.2.12  |
