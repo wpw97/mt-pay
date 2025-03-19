@@ -52,10 +52,6 @@ CREATE TABLE `inf_order`  (
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '订单表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
--- Records of inf_order
--- ----------------------------
-
--- ----------------------------
 -- Table structure for inf_pre_pay_order
 -- ----------------------------
 DROP TABLE IF EXISTS `inf_pre_pay_order`;
@@ -88,11 +84,6 @@ CREATE TABLE `inf_pre_pay_order`  (
   `remark` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '预支付订单' ROW_FORMAT = DYNAMIC;
-
--- ----------------------------
--- Records of inf_pre_pay_order
--- ----------------------------
-INSERT INTO `inf_pre_pay_order` VALUES ('1900169578970300418', 'prepay1900169578970300417', NULL, 1, '1', 1.1000, '元', 'cn', '1668671392', NULL, '微信支付', '1', 2, NULL, 'admin', NULL, '1', NULL, 'weixin://wxpay/bizpayurl?pr=LnFlXiMz1', 2, '0', '2025-03-13 20:58:26', '2025-03-13 23:37:15', 'admin', 'admin', NULL);
 
 -- ----------------------------
 -- Table structure for sys_pay_platform_config
